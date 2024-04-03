@@ -26,4 +26,9 @@ void F(int m, int n)
 
 }
 
-F(5, 9);
+Console.WriteLine("Введите значение M: ");
+int m = int.Parse(Console.ReadLine());
+Console.WriteLine("Введите значение N: ");
+int n = int.Parse(Console.ReadLine());
+Console.WriteLine("Результат: ");
+F(m, n);
